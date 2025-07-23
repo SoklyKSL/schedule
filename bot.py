@@ -11,7 +11,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # 💡 Inline button for Web App
     web_app_keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🧩 Open Web App", web_app={"url": "https://xxlz3kw8-5000.asse.devtunnels.ms"})]
+        [InlineKeyboardButton("🧩 Open Web App", web_app={"url": "https://soklyksl.github.io/schedule/backend/static"})]
     ])
 
     await update.message.reply_text("Welcome! Please share your phone number:", reply_markup=reply_markup)
